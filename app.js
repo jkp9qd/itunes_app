@@ -77,7 +77,7 @@ var login = () => {
 			{
 			 type: "list",
 			 message: "Add money to your account",
-			 choices: ['10','15','20','25','50','100'],
+			 choices: ['1','5','10','15','20','25'],
 			 name: "balance"
 		 }
 		]).then((results) => {
